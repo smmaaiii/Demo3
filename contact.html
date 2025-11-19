@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conctact</title>
+    <style>ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333333;
+      }
+      
+      ul li {
+        float: left;
+      }
+      
+      ul li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      ul li a:hover {
+        background-color: #b94848;
+      }</style>
+</head>
+<body>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="">Table</a></li>
+        <li> <a href="contact.html">Conctact</a></li>
+    </ul>
+    <h1>Conctact</h1>
+    <form action="thakss.html">
+        <label for=""> First Name</label>
+        <input type="text" required>
+        <br>
+        <label for=""> Last Name</label>
+        <input type="text" required>
+        <br>
+        <label for=""> email</label>
+        <input type="email" required>
+        <br>
+        <label for="">Phone number</label>
+        <input type="number">
+        <br>
+        <label for="">Password</label>
+        <input type="password">
+        <br>
+        <label for="">Are You a student?</label>
+        <label for="">Yes</label>
+        <input type="radio" name="Student">
+        <label for="" name:>No</label>
+        <input type="radio" name="Student">
+        <br>
+        <label for="">City</label>
+        <select name="" id="">
+            <option value="">London</option>
+            <option value="">Sheffield</option>
+            <option value="">Liverpool</option>
+        </select>
+        <p>Choose your colors:</p>
+
+        <div>
+            <input type="color" id="foreground" name="foreground" value="#e66465" />
+            <label for="foreground">Foreground color</label>
+        </div>
+
+        <div>
+            <input
+            type="color"
+            id="background"
+            name="background"
+            value="oklab(50% 0.1 0.1 / 0.5)"
+            colorspace="display-p3"
+            alpha />
+            <label for="background">Background color</label>
+        </div>
+        <br>
+        <label for="">Date</label>
+        <input type="date">
+        <br>
+        <label for="">Comments</label>
+        <textarea name="" id="" cols="20" rows="5"></textarea>
+        <br> <br>
+        <input type="submit" value="register">
+    </form>
+</body>
+</html>
